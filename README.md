@@ -7,7 +7,8 @@ Simple demo showing cross platform features of asp.net core. Here are the two ke
 
 Before you begin make sure to clone the repo and land in the correct directory. 
 
-```git clone https://github.com/razi-rais/aspnetcore-demo.git```
+```git clone https://github.com/razi-rais/aspnetcore-demo.git ```
+
 ```cd aspnetcore-demo```
 
 
