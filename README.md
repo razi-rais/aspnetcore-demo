@@ -1,8 +1,8 @@
 # ASP.NET Core Demo (~ 10 mins)
 Simple demo showing cross platform features of asp.net core. Here are the two key takeaway points:
 
-* Showcase the building and running of a simple asp.net core application on mac OS/Linux and Windows.
- Showcase the packaging and test run of a simple asp.net core application using Docker Linux and Windows Containers. 
+* Show the building and running of a simple asp.net core application on mac OS/Linux and Windows.
+* Show the the packaging and test run of a simple asp.net core application using Docker Linux and Windows Containers. 
 
 
 Before you begin make sure to clone the repo and land in the correct directory. 
