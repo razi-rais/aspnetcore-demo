@@ -1,10 +1,14 @@
-# aspnetcore-demo
-Simple demo showing cross platform features of asp.net core 
+# ASP.NET Core Demo (~ 10 mins)
+Simple demo showing cross platform features of asp.net core. Here are the two key takeaway points:
+
+* Showcase the building and running of a simple asp.net core application on mac OS/Linux and Windows.
+ Showcase the packaging and test run of a simple asp.net core application using Docker Linux and Windows Containers. 
+
 
 Before you begin make sure to clone the repo and land in the correct directory. 
 
-git clone https://github.com/razi-rais/aspnetcore-demo.git 
-cd aspnetcore-demo
+```git clone https://github.com/razi-rais/aspnetcore-demo.git```
+```cd aspnetcore-demo```
 
 
 # Build & Run Instructions for Mac OS & Linux
@@ -17,11 +21,11 @@ On mac OS and Linux Ubuntu 16.04 you need to install following software
 
 ## Building the application
 
-dotnet build 
+```dotnet build``` 
 
 ## Run the application locally
 
-dotnet run 
+```dotnet run```
 
 ## Test the application 
 
@@ -55,11 +59,11 @@ Here are two articles that go deeper into what I am talking about. Read them car
 
 ## Building the application
 
-dotnet build 
+```dotnet build``` 
 
 ## Run the application locally
 
-dotnet run 
+```dotnet run``` 
 
 ## Test the application 
 
@@ -67,11 +71,11 @@ Open your browser and navigate to the URL: http://localhost:5000. You should see
 
 ## Building Docker Image 
 
-docker build -t aspnetcore-demo:dev -f Dockerfile.Linux .
+```docker build -t aspnetcore-demo:dev -f Dockerfile.Linux .```
 
 ## Running the Docker Container
 
-docker run -p 5000:5000  aspnetcore-demo:dev  
+```docker run -p 5000:5000  aspnetcore-demo:dev```  
 
 ## Test the application running inside the container 
 
@@ -79,11 +83,11 @@ Open browser and navigate to the URL: http://localhost:5000. You should see a ba
 
 ## Building Docker Image 
 
-docker build -t aspnetcore-demo:dev -f .\Dockerfile.Windows .
+```docker build -t aspnetcore-demo:dev -f .\Dockerfile.Windows .```
 
 ## Running the Docker Container
 
-docker run -p 5000:5000  aspnetcore-demo:dev  
+```docker run -p 5000:5000  aspnetcore-demo:dev```  
 
 ## Test the application running inside the container 
 
