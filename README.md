@@ -47,7 +47,7 @@ Open browser and navigate to the URL: http://localhost:5000. You should see a ba
 
 # Build & Run Instructions for Windows Server 2016 
 
-These instructions are tested on Windows Server 2016 (version 1607). I mainly use Windows Server 2016 as it comes with native Windows Container support. You should also able to run .NET core application locally without issues on various version on Windows but Container support is only available in Windows 10 & Windows Server 2016/2019. Also building container image is heavily dependent on host operating system version. Don't be surprise if exact image tag used in this document does not work with your version of Windows. 
+These instructions are tested on Windows Server 2016 (version 1607). I mainly use Windows Server 2016 as it comes with native Windows Container support. You should also able to run .NET core application locally without issues on various versions of Windows but remember that Container support is only available on Windows 10 & Windows Server 2016/2019. Also building of a container image is heavily dependent on the host operating system version. Don't be surprise if exact image tag used in this document does not work with your version of Windows. 
 
 Here are the two articles that go deeper into what I am talking about. Read them carefully as its easy to get toasted and get cryptic messages while running docker build on Windows.
 
